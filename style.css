@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px 30px 50px;
+}
+
+.hlogo {
+    display: flex;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: grey;
+}
+
+li {
+    list-style-type: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
