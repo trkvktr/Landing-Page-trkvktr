@@ -2,24 +2,100 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin: 0px;
+}
+
+.header,
+.hero {
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 10px 50px 30px 50px;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex: 0;
+}
+
+.hero-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+
+.lilorem {
+    color: white;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    min-width: 500px;
+    max-width: 500px;
+    height: 250px;
+    margin-left: 50px;
+}
+
+.picture-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.negyzet {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 10px;
+    margin-bottom: 25px;
 }
 
 .hlogo {
     display: flex;
+    font-size: 24px;
+    color: white;
 }
 
+.header ul,
 ul {
     margin: 0px;
     padding: 0px;
-    display: flex;
     gap: 20px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.hero ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 a {
@@ -36,4 +112,19 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.signup-button {
+    width: 125px;
+    height: 25px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.header,
+.hero {
+    padding-left: 200px;
+    padding-right: 200px;
 }
