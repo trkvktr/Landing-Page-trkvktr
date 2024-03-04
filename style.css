@@ -6,79 +6,29 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.picture-section,
+.banner-section,
+.quote-section {
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
     background-color: #1f2937;
-    padding: 10px;
-}
-
-.hero {
-    display: flex;
-    background-color: #1f2937;
-    padding: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
-    flex: 0;
-}
-
-.hero-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.hero-text {
-    font-size: 48px;
-    font-weight: bolder;
-    color: white;
-}
-
-.lilorem {
-    color: white;
-}
-
-.placeholder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
-    min-width: 500px;
-    max-width: 500px;
-    height: 250px;
-    margin-left: 50px;
-}
-
-.picture-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.info {
-    max-width: 200px;
-}
-
-.negyzet {
-    width: 200px;
-    height: 200px;
-    background-color: green;
-    border-radius: 10px;
-    margin-bottom: 25px;
+    
 }
 
 .hlogo {
     display: flex;
     font-size: 24px;
-    color: white;
+    color: #F9FAF8;
 }
 
 .header ul,
@@ -92,11 +42,78 @@ ul {
     display: flex;
 }
 
+.hero {
+    display: flex;
+    background-color: #1f2937;
+}
+
 .hero ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+
+.lilorem {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.signup-button,
+.banner-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 125px;
+    height: 25px;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    background-color: #3882F6;
+}
+
+.banner-button {
+    border: 2px solid;
+}
+
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    max-width: 500px;
+    height: 250px;
+    margin-left: 50px;
+    background-color: grey;
+}
+
+.picture-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.negyzet {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background-color: green;
+}
+
+
 
 a {
     text-decoration: none;
@@ -106,25 +123,55 @@ a {
 
 li {
     list-style-type: none;
+    color: #e5e7eb;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
+
+.quote-text {
+    max-width: 1000px;
+    font-size: 36px;
+    font-family: italic;
+    color: #1f2937;
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.call-to-action {
+    font-size: large;
+    font-weight: bold;
+    color: #e5e7eb;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.signup-button {
-    width: 125px;
-    height: 25px;
+    padding: 10px;
+    background-color: #1f2937;
     color: white;
-    background-color: #3882F6;
-    border-radius: 10px;
-    border: 0px;
-}
-
-.header,
-.hero {
-    padding-left: 200px;
-    padding-right: 200px;
 }
